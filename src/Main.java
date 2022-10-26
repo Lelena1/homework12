@@ -30,8 +30,9 @@ public class Main {
 //    4. Классы имеют все необходимые геттеры и сеттеры.
 //    5. Объекты в методе main созданы.
 
-        Book book1 = new Book("Later", 2021);
         Author author1 = new Author("Stephen", "King");
+        Book book1 = new Book("Later", author1, 2021);
+
         System.out.println("book1.BookName = " + book1.getBookName() + "\n" + "author1.AuthorFirstName = " +
                 author1.getAuthorFirstName() + "\n" + "author1.AuthorLastName = " + author1.getAuthorLastName() + "\n" +
                 "book1.PublishingYear() = " + book1.getPublishingYear() + "\n");
@@ -41,8 +42,9 @@ public class Main {
 
         System.out.println();
 
-        Book book2 = new Book("Harry Potter and the Chamber of Secrets", 1998);
         Author author2 = new Author("Joanne", "Rowling");
+        Book book2 = new Book("Harry Potter and the Chamber of Secrets", author2, 1998);
+
         System.out.println("book2.BookName = " + book2.getBookName() + "\n" + "author2.AuthorFirstName = " +
                 author2.getAuthorFirstName() + "\n" + "author2.AuthorLastName = " + author2.getAuthorLastName() + "\n" +
                 "book2.PublishingYear() = " + book2.getPublishingYear() + "\n");
