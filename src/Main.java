@@ -33,9 +33,9 @@ public class Main {
         Author author1 = new Author("Stephen", "King");
         Book book1 = new Book("Later", author1, 2021);
 
-        System.out.println("book1.BookName = " + book1.getBookName() + "\n" + "author1.AuthorFirstName = " +
-                author1.getAuthorFirstName() + "\n" + "author1.AuthorLastName = " + author1.getAuthorLastName() + "\n" +
-                "book1.PublishingYear() = " + book1.getPublishingYear() + "\n");
+        System.out.println("book1.bookName = " + book1.getBookName() + "\n" + "author1.authorFirstName = " +
+                author1.getAuthorFirstName() + "\n" + "author1.authorLastName = " + author1.getAuthorLastName() + "\n" +
+                "book1.publishingYear = " + book1.getPublishingYear() + "\n");
 
         book1.setPublishingYear(2022);
         System.out.println("book1.getPublishingYear() = " + book1.getPublishingYear());
@@ -45,9 +45,9 @@ public class Main {
         Author author2 = new Author("Joanne", "Rowling");
         Book book2 = new Book("Harry Potter and the Chamber of Secrets", author2, 1998);
 
-        System.out.println("book2.BookName = " + book2.getBookName() + "\n" + "author2.AuthorFirstName = " +
-                author2.getAuthorFirstName() + "\n" + "author2.AuthorLastName = " + author2.getAuthorLastName() + "\n" +
-                "book2.PublishingYear() = " + book2.getPublishingYear() + "\n");
+        System.out.println("book2.bookName = " + book2.getBookName() + "\n" + "author2.authorFirstName = " +
+                author2.getAuthorFirstName() + "\n" + "author2.authorLastName = " + author2.getAuthorLastName() + "\n" +
+                "book2.publishingYear = " + book2.getPublishingYear() + "\n");
 
         book2.setPublishingYear(2005);
         System.out.println("book2.getPublishingYear() = " + book2.getPublishingYear());
